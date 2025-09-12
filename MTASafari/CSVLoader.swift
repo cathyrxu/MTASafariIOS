@@ -8,8 +8,7 @@ struct CSVLoader {
             return []
         }
         
-        print(content)
-        let rows = content.split(separator: "\n").dropFirst()
+        let rows = content.components(separatedBy: "\n").dropFirst()
         return rows.compactMap { row in
             let columns = row.split(separator: ",").map { String($0) }
             guard columns.count >= 3 else {
