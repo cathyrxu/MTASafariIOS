@@ -16,6 +16,7 @@ struct StationListView: View {
             .navigationTitle("Stations")
             .onAppear {
                 stations = CSVLoader.loadStations(from: "stations")
+                print(stations.count)
             }
         }
     }
