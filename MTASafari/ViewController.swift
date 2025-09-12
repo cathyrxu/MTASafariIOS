@@ -11,9 +11,11 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        // Display StationListView when the app starts
+        let stationListView = StationListView()
+        stationListView.frame = self.view.bounds
+        self.view.addSubview(stationListView)
     }
-
 
 }
 

@@ -1,0 +1,87 @@
+Name,Code,EventType
+125 St,1,Special
+116 St–Columbia University,2,Special
+Cathedral Pkwy (110 St),3,Normal
+Central Park North–110 St,4,Normal
+103 St (Broadway–Seventh Ave Line),5,Check
+103 St (Lexington Avenue Line),6,Normal
+96 St (Broadway–Seventh Ave Line),7,Special
+96 St (IND Eighth Avenue Line),8,Normal
+96 St (Lexington Avenue Line),9,Check
+86 St (Broadway–Seventh Ave Line),10,Check
+86 St (IND Eighth Avenue Line),11,Normal
+86 St (Lexington Avenue Line),12,Special
+81 St–Museum of Natural History,13,Normal
+79 St,14,Special
+77 St,15,Normal
+72 St (Broadway–Seventh Ave Line),16,Normal
+72 St (IND Second Avenue Line),17,Normal
+68 St–Hunter College,18,Normal
+66 St–Lincoln Center,19,Special
+59 St–Columbus Circle,20,Check
+59 St–Lexington Av,21,Check
+57 St (Sixth Avenue Line),22,Normal
+57 St–Seventh Av,23,Normal
+55 St,24,Normal
+53 St–Lexington Av,25,Check
+51 St,26,Check
+50 St (Eighth Avenue Line),27,Normal
+50 St (Broadway–Seventh Avenue Line),28,Normal
+49 St,29,Normal
+47–50 Sts–Rockefeller Ctr,30,Special
+Times Sq–42 St,31,Check
+42 St–Port Authority Bus Terminal,32,Special
+42 St–Bryant Park,33,Check
+42 St–Grand Central (Shuttle),34,Normal
+Grand Central–42 St,35,Check
+34 St–Herald Sq,36,Check
+34 St–Penn Station (Eighth Avenue Line),37,Special
+34 St–Penn Station (Seventh Avenue Line),38,Normal
+34 St–Hudson Yards,39,Normal
+33 St (Lexington Avenue Line),40,Normal
+28 St (Lexington Avenue Line),41,Check
+28 St (Broadway–Seventh Avenue Line),42,Normal
+28 St (Sixth Avenue Line),43,Normal
+23 St (Lexington Avenue Line),44,Normal
+23 St (Broadway–Seventh Avenue Line),45,Check
+23 St (Sixth Avenue Line),46,Special
+23 St (Eighth Avenue Line),47,Normal
+18 St,48,Check
+14 St–Union Sq,49,Check
+14 St (Sixth Avenue Line),50,Normal
+14 St (Eighth Avenue Line),51,Special
+14 St (Seventh Avenue Line),52,Check
+8 St–NYU,53,Special
+Astor Pl,54,Normal
+West 4 St–Washington Sq,55,Check
+Christopher St–Sheridan Sq,56,Normal
+Houston St,57,Normal
+Spring St (Eighth Avenue Line),58,Normal
+Spring St (Lexington Avenue Line),59,Check
+Prince St,60,Check
+Broadway-Lafayette St,61,Special
+2 Av,62,Normal
+Delancey-Essex,63,Special
+Bowery,64,Normal
+East Broadway,65,Normal
+Canal St (Broadway Line),66,Special
+Canal St (Lexington Avenue Line),67,Normal
+Canal St (Eighth Avenue Line),68,Check
+Canal St (Manhattan Bridge Line),69,Normal
+Grand St,70,Normal
+Chambers St (Broadway Line),71,Check
+Chambers St (Nassau Street Line),72,Normal
+Park Pl,73,Normal
+World Trade Center,74,Special
+Cortlandt St (Broadway Line),75,Check
+WTC Cortlandt,76,Normal
+Fulton St,77,Check
+Brooklyn Bridge–City Hall,78,Special
+Wall St (Lexington Avenue Line),79,Check
+Wall St (Broadway–Seventh Avenue Line),80,Normal
+Broad St,81,Normal
+Rector St (Broadway Line),82,Special
+Rector St (Broadway–Seventh Avenue Line),83,Normal
+Bowling Green,84,Check
+Whitehall St–South Ferry,85,Normal
+South Ferry,86,Normal
