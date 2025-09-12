@@ -6,15 +6,18 @@
 //
 
 import UIKit
+import SwiftUI
 
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Display StationListView when the app starts
         let stationListView = StationListView()
-        stationListView.frame = self.view.bounds
-        self.view.addSubview(stationListView)
+        let hostingController = UIHostingController(rootView: stationListView)
+        addChild(hostingController)
+        hostingController.view.frame = view.bounds
+        view.addSubview(hostingController.view)
+        hostingController.didMove(toParent: self)
     }
 
 }

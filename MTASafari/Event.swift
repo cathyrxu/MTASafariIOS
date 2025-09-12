@@ -24,7 +24,7 @@ struct ActionConfig {
 }
 
 struct Event {
-    var Type: EventType
+    var EventType: EventType
     var Title: String
     var Story: String
     var currentUser: User?
