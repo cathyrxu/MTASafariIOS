@@ -39,7 +39,6 @@ class EventUtility {
             EventType: station.EventType,
             Title: "Event at \(station.Name)",
             Story: "You have arrived at \(station.Name) station. Something interesting might happen here.",
-            StoryResult: "You have arrived at \(station.Name) station. Something interesting might happen here.",
             currentUser: nil,
             actions: [ActionConfig()]
         )
@@ -47,6 +46,7 @@ class EventUtility {
 
     private static func updateCheckActionConfig(for event: inout Event) {
         var action1 = ActionConfig(
+            StoryResult: "",
             HPChange: 0,
             MoneyChange: 0,
             SanityChange: 0,
@@ -55,6 +55,7 @@ class EventUtility {
         )
         
         var action2 = ActionConfig(
+            StoryResult: "",
             HPChange: 0,
             MoneyChange: 0,
             SanityChange: 0,

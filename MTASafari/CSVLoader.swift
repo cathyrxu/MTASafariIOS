@@ -58,7 +58,7 @@ struct CSVLoader {
             }
             
             var actionConfig = ActionConfig()
-            if columns.count > 3 && columns[3]:! .isEmpty {
+            if columns.count > 3 && columns[3].isEmpty {
                 actionConfig.StoryResult = columns[3]
             }
             if columns.count > 4 && !columns[4].isEmpty {

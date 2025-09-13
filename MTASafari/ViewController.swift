@@ -43,7 +43,7 @@ class ViewController: UIViewController {
         actionConfig.apply(to: &currentUser)
         
         let actionResultView = ActionResultView(
-            resultMessage: event.StoryResult,
+            resultMessage: actionConfig.StoryResult,
             user: currentUser,
             actionConfig: actionConfig,
             onBack: { [weak self] in
