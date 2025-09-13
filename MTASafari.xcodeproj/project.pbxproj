@@ -29,6 +29,8 @@
 		943ED0232E73DFF700937C96 /* UserStatusView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 943ED01E2E73DFF700937C96 /* UserStatusView.swift */; };
 		94F2A3452E73EAD6009C116B /* CSVLoader.swift in Resources */ = {isa = PBXBuildFile; fileRef = 943ED0152E73DFEA00937C96 /* CSVLoader.swift */; };
 		94F2A3462E73EB0B009C116B /* stations.csv in Resources */ = {isa = PBXBuildFile; fileRef = 943ED0172E73DFEE00937C96 /* stations.csv */; };
+		94F2A3482E74FC00009C116B /* EventUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94F2A3472E74FC00009C116B /* EventUtility.swift */; };
+		94F2A34A2E74FC16009C116B /* events.csv in Resources */ = {isa = PBXBuildFile; fileRef = 94F2A3492E74FC16009C116B /* events.csv */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -52,6 +54,8 @@
 		943ED01E2E73DFF700937C96 /* UserStatusView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserStatusView.swift; sourceTree = "<group>"; };
 		943ED01F2E73DFF700937C96 /* ActionResultView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionResultView.swift; sourceTree = "<group>"; };
 		943ED0202E73DFF700937C96 /* EventView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventView.swift; sourceTree = "<group>"; };
+		94F2A3472E74FC00009C116B /* EventUtility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventUtility.swift; sourceTree = "<group>"; };
+		94F2A3492E74FC16009C116B /* events.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = events.csv; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,9 +98,11 @@
 				943ECFDE2E73CC4C00937C96 /* ViewController.swift */,
 				943ED01A2E73DFF200937C96 /* Event.swift */,
 				943ED0182E73DFF200937C96 /* Station.swift */,
+				94F2A3492E74FC16009C116B /* events.csv */,
 				943ED0192E73DFF200937C96 /* User.swift */,
 				943ED01F2E73DFF700937C96 /* ActionResultView.swift */,
 				943ED0202E73DFF700937C96 /* EventView.swift */,
+				94F2A3472E74FC00009C116B /* EventUtility.swift */,
 				943ED01E2E73DFF700937C96 /* UserStatusView.swift */,
 				943ED0172E73DFEE00937C96 /* stations.csv */,
 				943ECFE02E73CC4C00937C96 /* Main.storyboard */,
@@ -165,6 +171,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				94F2A34A2E74FC16009C116B /* events.csv in Resources */,
 				94F2A3462E73EB0B009C116B /* stations.csv in Resources */,
 				94F2A3452E73EAD6009C116B /* CSVLoader.swift in Resources */,
 				943ECFE72E73CC4D00937C96 /* LaunchScreen.storyboard in Resources */,
@@ -185,6 +192,7 @@
 			files = (
 				943ED0212E73DFF700937C96 /* ActionResultView.swift in Sources */,
 				943ED0222E73DFF700937C96 /* EventView.swift in Sources */,
+				94F2A3482E74FC00009C116B /* EventUtility.swift in Sources */,
 				943ED0142E73DFE500937C96 /* StationListView.swift in Sources */,
 				943ED0112E73DF4F00937C96 /* Views in Sources */,
 				943ED0102E73DF4C00937C96 /* Utilities in Sources */,

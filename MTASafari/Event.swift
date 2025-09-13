@@ -27,14 +27,7 @@ struct Event {
     var EventType: EventType
     var Title: String
     var Story: String
+    var StoryResult: String
     var currentUser: User?
-    var action: ActionConfig?
-
-    func performAction(for user: inout User) -> String {
-        guard let action = action else {
-            return "No action available."
-        }
-        action.apply(to: &user)
-        return "Action performed: HP \(action.HPChange), Money \(action.MoneyChange), Sanity \(action.SanityChange)"
-    }
+    var actions: [ActionConfig]
 }
