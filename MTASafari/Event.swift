@@ -7,6 +7,7 @@ enum EventType {
 }
 
 struct ActionConfig {
+    var StoryResult: String
     var HPChange: Int = 0
     var MoneyChange: Int = 0
     var SanityChange: Int = 0
@@ -27,7 +28,6 @@ struct Event {
     var EventType: EventType
     var Title: String
     var Story: String
-    var StoryResult: String
     var currentUser: User?
     var actions: [ActionConfig]
 }

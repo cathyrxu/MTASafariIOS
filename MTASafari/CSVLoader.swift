@@ -58,32 +58,29 @@ struct CSVLoader {
             }
             
             var actionConfig = ActionConfig()
+            if columns.count > 3 && columns[3]:! .isEmpty {
+                actionConfig.StoryResult = columns[3]
+            }
             if columns.count > 4 && !columns[4].isEmpty {
                 actionConfig.HPChange = Int(columns[4]) ?? 0
-                print("hp")
             }
             if columns.count > 5 && !columns[5].isEmpty {
                 actionConfig.MoneyChange = Int(columns[5]) ?? 0
-                print("money")
             }
             if columns.count > 6 && !columns[6].isEmpty {
                 actionConfig.SanityChange = Int(columns[6]) ?? 0
-                print("san")
             }
             if columns.count > 7 && !columns[7].isEmpty {
                 actionConfig.SkipRound = columns[7].lowercased() == "true"
-                print("skip")
             }
             if columns.count > 8 && !columns[8].isEmpty {
                 actionConfig.RepeatRound = columns[8].lowercased() == "true"
-                print("repeat")
             }
             
             return Event(
                 EventType: eventType,
                 Title: columns[1],
                 Story: columns[2],
-                StoryResult: columns.count > 3 ? columns[3]:"",
                 currentUser: nil,
                 actions: [actionConfig]
             )
